@@ -5,7 +5,7 @@ def crear_pila():
 def is_empty(pila):
     return len(pila) == 0
 
-#Agregamos disco Coloca un disco en la parte de arriba de la torre y luego Saca el disco que esta hasta arriba, si la torre no esta vacia
+# Colocamos un disco en la parte de arriba de la torre y luego Saca el disco que esta hasta arriba, si la torre no esta vacia
 
 def push(pila,disco):
     pila.append(disco)
